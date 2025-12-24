@@ -1,5 +1,3 @@
+require("vfp.core")
 
 
-require("vfp")
-require("vfp.remap")
-require("vfp.lazy")

@@ -1,1 +1,2 @@
-print("Hello from vfp")
+require("vfp.core")
+
