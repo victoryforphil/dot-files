@@ -142,7 +142,7 @@ export OPENSSL_ROOT_DIR=/opt/homebrew/opt/openssl@3
 export OPENSSL_ROOT_DIR=/opt/homebrew/opt/openssl@3
 export PATH="/Users/alex/Library/Python/3.10/bin:$PATH"
 
-  export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 # bun completions
@@ -153,18 +153,6 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 . "$HOME/.local/bin/env"
-
-# >>> juliaup initialize >>>
-
-# !! Contents within this block are managed by juliaup !!
-
-path=('/Users/alex/.juliaup/bin' $path)
-export PATH
-
-# <<< juliaup initialize <<<
-
-# Added by Windsurf
-export PATH="/Users/alex/.codeium/windsurf/bin:$PATH"
 
 # proto
 export PROTO_HOME="$HOME/.proto";
@@ -190,11 +178,7 @@ compinit
 # cursed-code
 #export OPENCODE_CONFIG_DIR="/Users/alex/cursed-code/.opencode"
 
-# Load Ghostty-specific configuration if running in Ghostty
-if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
-    [[ -f ~/.zshrc_ghostty ]] && source ~/.zshrc_ghostty
-fi
-alias playwright="node /Users/alex/.proto/tools/node/22.19.0/lib/node_modules/playwright/cli.js"
+#alias playwright="node /Users/alex/.proto/tools/node/22.19.0/lib/node_modules/playwright/cli.js"
 
 
 # Load env Vars
