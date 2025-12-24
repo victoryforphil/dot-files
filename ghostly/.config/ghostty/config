@@ -1,0 +1,11 @@
+# Font configuration to prevent character width issues
+
+#font-family = "Comic Code Ligatures"
+font-family = "SF Mono"
+
+shell-integration = zsh
+
+# Mac glass blur effect
+background-opacity = 0.85
+background-blur-radius = 20
+

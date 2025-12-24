@@ -1,0 +1,9 @@
+# Terminfo definition for xterm-ghostty
+# Based on xterm-256color with Ghostty-specific optimizations
+
+xterm-ghostty|ghostty xterm emulation,
+    use=xterm-256color,
+    kbs=^H,
+    kcbt=\E[Z,
+    kent=\EOM,
+    kmous=\E[<,
